@@ -1,1 +1,2 @@
-# Machine-Learning-Coursework-1
+# Machine-Learning-Coursework-1classifier.py
+This script implements a decision tree classifier and a gradient boosting classifier using decision trees. The Node class represents a decision node in the tree, while the DecisionTree class provides methods to calculate entropy, information gain, and recursively build the tree. The Classifier class uses gradient boosting to iteratively create decision trees and improve prediction accuracy. The script also includes a one_hot_encode function to convert target arrays into one-hot encoded arrays. This implementation allows for fitting the classifier to data, making predictions, and resetting the classifier for new training sessions.
